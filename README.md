@@ -190,7 +190,15 @@ show standard output.
 
 Default: `0`
 
-### Display wind / humidity / pressure
+### Display Feels like
+
+Toggle "Feels like" display. Value can be either `true` or `false`.
+
+	show_feels_like:false
+
+Default: `false`
+
+### Display UV Index / wind / humidity / pressure
 
 Toggle UV Index, wind, humidity, and/or pressure display. Values can be either
 `true` or `false`.
