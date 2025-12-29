@@ -405,10 +405,10 @@ else
 	fi
 	output="$background$text $greeting_text $city$delimiter$data $temperature $scale $icon"
 
-        if [ "$show_feels_like" = true ]
-        then
-                output="$output$dashes$text $feels_like_text$delimiter$data $feels_like $scale "
-        fi
+	if [ "$show_feels_like" = true ]
+	then
+		output="$output$dashes$text $feels_like_text$delimiter$data $feels_like $scale "
+	fi
 
 	if [ "$show_uvi" = true ]
 	then
